@@ -80,6 +80,7 @@
 
 # Audio
 *.aiff filter=lfs diff=lfs merge=lfs -text
+*.bank filter=lfs diff=lfs merge=lfs -text
 *.mp3 filter=lfs diff=lfs merge=lfs -text
 *.ogg filter=lfs diff=lfs merge=lfs -text
 *.wav filter=lfs diff=lfs merge=lfs -text
@@ -103,6 +104,9 @@
 *.pak filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 *.tgz filter=lfs diff=lfs merge=lfs -text
+
+# Add for Unity Adaptive Prove Volumes Data
+*.bytes filter=lfs diff=lfs merge=lfs -text
 
 # Archives
 *.7z filter=lfs diff=lfs merge=lfs -text

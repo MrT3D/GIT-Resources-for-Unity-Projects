@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+.utmp/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -10,18 +11,12 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-.idea
-.utmp
-
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
-
-# Asset meta data should only be ignored when the corresponding asset is also ignored
-!/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -31,9 +26,6 @@
 
 # Visual Studio cache directory
 .vs/
-
-# MacOS Generated
-*.DS_Store
 
 # Gradle cache directory
 .gradle/
@@ -55,7 +47,6 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
-*.vsconfig
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -69,14 +60,8 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+*.unitypackage.meta
 *.app
-*.obb
-*.exe
-
-# Archives
-*.zip
-*.tar
-*.gz
 
 # Crashlytics generated file
 crashlytics-build.properties
@@ -87,3 +72,4 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+.idea
