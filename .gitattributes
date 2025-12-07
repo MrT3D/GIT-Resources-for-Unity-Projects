@@ -63,6 +63,7 @@
 *.ztl filter=lfs diff=lfs merge=lfs -text
 
 # Video
+*.4ds filter=lfs diff=lfs merge=lfs -text
 *.asf filter=lfs diff=lfs merge=lfs -text
 *.avi filter=lfs diff=lfs merge=lfs -text
 *.avv filter=lfs diff=lfs merge=lfs -text
